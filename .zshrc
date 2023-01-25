@@ -273,7 +273,7 @@ alias ls="exa"
 alias ws='google'
 alias nv='neovide'
 alias fz='nvim $(fzf)'
-alias r='ranger'
+alias rn='ranger'
 eval $(thefuck --alias)
 export PATH="/usr/local/opt/node@16/bin:$PATH"
 # Add doom to PATH

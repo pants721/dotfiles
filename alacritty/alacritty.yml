@@ -2,8 +2,8 @@ import:
   - ~/.alacritty-colorscheme/themes/base16_default_dark.yaml
 
 env:
-  TERM: alacritty
-  # TERM: xterm-256color
+  # TERM: alacritty
+  TERM: xterm-256color
 
 window:
   # startup_mode: maximized
@@ -20,13 +20,13 @@ scrolling:
 # Font configuration
 font:
   normal:
-    family: Jetbrainsmono Nerd Font Mono
+    family: Jetbrainsmononl Nerd Font Mono
     # family: hack Nerd Font Mono
     # family: bigblue_terminal_437tt nerd font mono
     antialias: true
 
   # Pointisize
-  size: 16
+  size: 14.5
   # size: 20
 
 # ==== BEGIN CUSTOM THEME ====
