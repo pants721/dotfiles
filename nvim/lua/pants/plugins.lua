@@ -22,8 +22,10 @@ use {
 
 
 -- LINES
--- use "nvim-tree/nvim-web-devicons"
+use "nvim-tree/nvim-web-devicons"
 -- use {"romgrk/barbar.nvim", wants = "nvim-web-devicons"}
+use  "nvim-lualine/lualine.nvim"
+
 
 -- CMP
 use "hrsh7th/cmp-nvim-lsp"
@@ -52,6 +54,7 @@ use ("nvim-treesitter/nvim-treesitter", {run = ":TSUpdate"})
 use "ThePrimeagen/harpoon"
 use "dstein64/vim-startuptime"
 use "turbio/bracey.vim"
+use "ggandor/leap.nvim"
 
 
 end
