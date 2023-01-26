@@ -20,9 +20,11 @@ scrolling:
 # Font configuration
 font:
   normal:
-    family: JetBrainsMono Nerd Font 
+    # family: JetBrainsMono Nerd Font 
+    family: Roboto Mono
     # family: hack Nerd Font Mono
     # family: bigblue_terminal_437tt nerd font mono
+    style: Medium
     antialias: true
 
   # Pointisize
