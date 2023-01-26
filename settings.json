@@ -1,0 +1,76 @@
+{
+    "workbench.startupEditor": "none",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["K"],
+            "after": ["g", "h"]
+        }
+    ],
+    "editor.fontFamily": "jetbrainsmono nerd font mono",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.inlineSuggest.enabled": true,
+    // "omnisharp.useModernNet": false,
+    "editor.fontSize": 16,
+    "gruvboxMaterial.darkPalette": "original",
+    "gruvboxMaterial.darkWorkbench": "high-contrast",
+    "gruvboxMaterial.darkCursor": "green",
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.matchBrackets": "near",
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "githubPullRequests.createOnPublishBranch": "never",
+    "git.confirmSync": false,
+    "gruvboxConcoctis.usePalette": "original",
+    "window.menuBarVisibility": "toggle",
+    "omnisharp.dotnetPath": "/bin/dotnet",
+    "omnisharp.useModernNet": false,
+    "helium-icon-theme.showWelcomeMessage": false,
+    "editor.linkedEditing": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "jetbrainsmono nerd font mono",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "redhat.telemetry.enabled": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "markdown.preview.fontFamily": "jetbrainsmononl nerd font mono",
+    "gruvboxConcoctis.useBoldFont": true,
+    "editor.fontWeight": "normal",
+    "editor.minimap.autohide": true,
+    "editor.minimap.maxColumn": 100,
+    "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+    "editor.inlayHints.enabled": "off",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.activityBar.visible": false,
+    "search.showLineNumbers": true,
+    "editor.bracketPairColorization.enabled": false,
+    "git.autofetch": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.configureOnOpen": true,
+    "workbench.layoutControl.enabled": false,
+}
