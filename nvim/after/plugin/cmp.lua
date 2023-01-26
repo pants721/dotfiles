@@ -1,5 +1,18 @@
 local cmp = require "cmp"
+local lspkind = require "lspkind"
 cmp.setup({
+    formatting = {
+        format = lspkind.cmp_format({
+        mode = "symbol_text",
+        menu = ({
+          buffer = "[Buffer]",
+          nvim_lsp = "[LSP]",
+          luasnip = "[LuaSnip]",
+          nvim_lua = "[Lua]",
+          latex_symbols = "[Latex]",
+        })
+      }),
+    },
     snippet = {
         expand = function(args)
             require('luasnip').lsp_expand(args.body)
@@ -7,7 +20,10 @@ cmp.setup({
         end,
     },
     window = {
-        completion = cmp.config.window.bordered(),
+        completion = {
+            border = nil,
+            scrollbar = '',
+        },
         documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
@@ -46,6 +62,12 @@ cmp.setup.filetype('gitcommit', {
     }, {
         { name = 'buffer' },
     })
+})
+
+cmp.setup.cmdline({
+    view = {
+        entries = {name = 'wildmenu', separator = '|' }       
+    },
 })
 
 cmp.setup.cmdline('/', {
