@@ -29,7 +29,7 @@ vim.o.fixendofline = true
 -- UI
 vim.o.relativenumber = true
 vim.o.number = true
--- vim.o.colorcolumn = '100'
+vim.o.colorcolumn = '80'
 vim.o.signcolumn = 'yes'
 vim.o.guicursor = 'i:block'
 vim.o.termguicolors = true
