@@ -1,0 +1,50 @@
+# --- Shell / startup ---
+# Start zsh as login shell and attach/create tmux
+shell-integration = zsh
+command = fish -c "tmux attach; or tmux"
+
+# --- Font ---
+# font-family = "jetbrainsmono nerd font"
+# font-family = "hack nerd font"
+font-family = "Berkeley Mono"
+# font-family = "hack nerd font"
+# font-family = "monaspice kr nerd font"
+# font-family = "IBM Plex Mono"
+
+# font-family = "Terminus"
+# font-family = "cozette"
+# font-family = "curie"
+# font-family = "Glass TTY VT220"
+# font-family = "scientifica"
+
+# font-style = "Bold"
+
+font-size = 14
+
+# Disable font ligatures (equivalent of calt/clig/liga = 0)
+font-feature = -calt
+font-feature = -dlig
+font-feature = -liga
+
+
+# --- Window UI ---
+# No tab bar
+window-theme = system
+window-height = 200
+window-width = 400
+
+# Window opacity
+background-opacity = 0.9
+
+# theme = Modus Vivendi
+# theme = Solarized Dark Higher Contrast
+# theme = Solarized Dark Patched
+# theme = iTerm2 Solarized Dark
+# theme = Tomorrow Night Burns
+# theme = Gruber Darker
+theme = GitHub Dark
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+confirm-close-surface = false

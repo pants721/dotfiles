@@ -1,0 +1,37 @@
+
+[env]
+# TERM = "alacritty"
+# TERM = "tmux-256color"
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.90
+dynamic_title = true
+
+[scrolling]
+history = 12000
+multiplier = 1
+
+[font]
+size = 12
+
+[font.normal]
+family = "jetbrainsmono nerd font"
+
+[general]
+
+# import = ["~/.config/alacritty/gruvpants.toml"]
+live_config_reload = true
+# import = ["~/.config/alacritty/ayu_dark.toml"]
+
+[terminal]
+# family = "hack nerd font"
+# family = "firacode nerd font"
+# family = "monaco nerd font mono"
+# family = "inconsolatalgc nerd font"
+# style = "medium"
+
+[terminal.shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/zsh"
+
